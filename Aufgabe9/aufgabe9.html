@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Aufgabe 9</title>
+</head>
+<body>
+<h1>Mausereignisse behandeln mit JavaScript</h1>
+<div id="hallo" onclick="clickFunction()" ondblclick="doppelKlickFunction()" onmouseenter="mausEnterFunction()" onmouseleave="mausWegEnterFunction()" style="width: 200px; height: 200px; background: red">
+</div>
+
+<h1>Tastaturergebnisse behandeln mit JavaScript</h1>
+<input id="textInput" onkeyup="keyUpFunction()" type="text"/>
+<p id="textOutput"></p>
+
+<script>
+    function clickFunction()
+    {
+        document.getElementById("hallo").style.background="#008000";
+    }
+    function doppelKlickFunction()
+    {
+        document.getElementById("hallo").innerHTML="<div style='padding:120px'>Doppelklick</div>";
+    }
+    function mausEnterFunction()
+    {
+        changeDiv(true);
+    }
+    function mausWegEnterFunction()
+    {
+        changeDiv(false);
+    }
+    function changeDiv(action)
+    {
+        if (action)
+        {
+            document.getElementById("hallo").style.width="300px";
+            document.getElementById("hallo").style.height="300px";
+        }
+        else
+        {
+            document.getElementById("hallo").style.width="200px";
+            document.getElementById("hallo").style.height="200px";
+        }
+    }
+    function keyUpFunction()
+    {
+         document.getElementById("textOutput").innerHTML = document.getElementById("textInput").value;
+    }
+</script>
+</body>
+</html>

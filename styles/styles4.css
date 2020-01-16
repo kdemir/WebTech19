@@ -1,0 +1,81 @@
+@charset "ISO-8859-1";
+
+
+body {
+ background-color: #FF5F00; /* HTW-orange */
+ font-size:1rem;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+ /* margin: 10px;*/
+ /* padding: 20px;*/
+ /* font-size: 30px;*/
+}
+
+ #oben{
+ background-color: #E6E6FA;
+ }
+ 
+ #links{
+ background-color:	#BA55D3;
+ color: white;}
+ 
+ #mitte{
+ background-color:#9932CC;
+ color: white;}
+ 
+ #rechts{
+ background-color: #9370DB;
+ color: white;}
+ 
+ #unten{
+ background-color:#E6E6FA;}
+ 
+
+ 
+@media screen and (min-width: 720px) {
+ body {
+ background-color: #0082D1; /* HTW-blau */
+ font-size:1.2rem;
+ }
+ .flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+ /* margin: 10px;*/
+ /* padding: 20px;*/
+ /* font-size: 30px;*/
+}
+
+
+
+ #oben{
+ background-color: #8FBC8F;
+ }
+ 
+ #links{
+ background-color:#7FFF00;
+ color: white;}
+ 
+ #mitte{
+ background-color:#006400;
+ color: white;}
+ 
+ #rechts{
+ background-color: #556B2F;
+ color: white;}
+ 
+ #unten{
+ background-color:#8FBC8F;}
+ }
+ 
+ 

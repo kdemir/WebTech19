@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+body{
+	font-family:"verdana", verdana, Sans-Serif;
+}
+
+#h1 {
+	background-color: #AFAFAF;
+	color: rgb(255,95,0);
+	text-align: center;
+}
+
+nav {
+	margin-bottom: 50px;
+	margin-top: 50px;
+	text-align: left;
+}
+
+a{
+	color: white;
+	font-family:"bold";
+	border-radius: 5px;
+	padding: 4px;
+	border: 1px solid grey;
+	background-color: rgb(0,130,209);
+	text-decoration: none;	
+}
+a:hover{
+	color: rgb(255,95,0);
+	font-family:"bold";
+	border-radius: 5px;
+	padding: 4px;
+	border: 1px solid grey;
+	background-color: rgb(175,175,175);
+	text-decoration: none;	
+}
+
+table{
+	border-collapse: collapse;
+	box-shadow: 10px 10px 15px grey;
+	
+}
+
+table, td, th{
+	boder: 1;
+	border-style: solid;
+	border: 1px solid black;	
+	width: 80%;
+}
+
+th{
+	background-color: rgb(118,185,0);
+	color: rgb(255,255,255);
+}
+
+
+
+footer{
+	color: black;
+	background-color: rgb(255,95,0);
+	text-align: center;
+	font-size: small;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+	
